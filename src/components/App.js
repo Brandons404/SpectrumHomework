@@ -185,7 +185,7 @@ export default function App() {
         <Typography className={classes.total}>Total points:</Typography>
         <Typography style={{ marginTop: "15%", marginBottom: "15%" }} className={classes.total}>{totalPoints}</Typography>
       </Paper>
-      <Button href="https://github.com/Brandons404/SpectrumHomework.git" style={{ height: 30, right: "4%", top: "90%", position: "absolute", backgroundColor: "rgb(80, 80, 80)", color: "white", fontWeight: "bold" }} size="large" variant="contained" color="primary">
+      <Button href="https://github.com/Brandons404/SpectrumHomework.git" style={{ height: 30, right: "4%", top: "90%", position: "fixed", backgroundColor: "rgb(80, 80, 80)", color: "white", fontWeight: "bold" }} size="large" variant="contained" color="primary">
         Github Repo
       </Button>
       
