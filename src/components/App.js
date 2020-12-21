@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles/styles.css";
 import customer from "../models/customer.json";
 //Material-UI Components
