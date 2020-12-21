@@ -55,7 +55,6 @@ const useStyles = makeStyles({
 
 export default function App() {
   const classes = useStyles();
-  console.log(customer)
 
   const customerM1 = customer.month1;
   const customerM2 = customer.month2;
@@ -72,8 +71,6 @@ export default function App() {
 
   for (let day in customerM1) {
     const key = customerM1[day];
-    console.log(key.spent)
-    console.log(day)
     const transactionPoints = calcPoints(key.spent)
     tempTableM1.push((
       <TableRow key={key}>
@@ -89,8 +86,6 @@ export default function App() {
 
   for (let day in customerM2) {
     const key = customerM2[day];
-    console.log(key.spent)
-    console.log(day)
     const transactionPoints = calcPoints(key.spent)
     tempTableM2.push((
       <TableRow key={key}>
@@ -106,8 +101,6 @@ export default function App() {
 
   for (let day in customerM3) {
     const key = customerM3[day];
-    console.log(key.spent)
-    console.log(day)
     const transactionPoints = calcPoints(key.spent)
     tempTableM3.push((
       <TableRow key={key}>
@@ -192,7 +185,7 @@ export default function App() {
         <Typography className={classes.total}>Total points:</Typography>
         <Typography style={{ marginTop: "15%", marginBottom: "15%" }} className={classes.total}>{totalPoints}</Typography>
       </Paper>
-      <Button href="https://www.google.com" style={{ height: 30, right: "4%", top: "90%", position: "absolute", backgroundColor: "rgb(80, 80, 80)", color: "white", fontWeight: "bold" }} size="large" variant="contained" color="primary">
+      <Button href="https://github.com/Brandons404/SpectrumHomework.git" style={{ height: 30, right: "4%", top: "90%", position: "absolute", backgroundColor: "rgb(80, 80, 80)", color: "white", fontWeight: "bold" }} size="large" variant="contained" color="primary">
         Github Repo
       </Button>
       
