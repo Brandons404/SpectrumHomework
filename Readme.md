@@ -4,6 +4,8 @@ A static web page built for a Spectrum assessment test, built with React and Mat
 
 ## Screen Shot
 
+(Monthly totals are at the bottom of each table, but are not visible in screen shot.)
+
 ![Screen Shot](https://i.imgur.com/gOiT3Le.png)
 
 
